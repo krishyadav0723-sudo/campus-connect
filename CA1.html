@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Campus-Accessibility></Campus-Accessibility></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="CA1.css">
+</head>
+<body>
+    <div class="topbar">
+        <div class="navlogo">
+        <div class="logo"></div>
+        </div>
+        <div class="nav-option">
+            <a class="nav-link active border" href="#home">Home</a>
+            <a class="nav-link border" href="#facilities">Facilities</a>
+            <a class="nav-link border" href="#report">Report Issues</a>
+            <a class="nav-link border" href="#issues">My Issues</a>
+            <div class="profile">
+                <i class="fa-regular fa-circle-user"></i>
+                <a class="nav-link border" href="profile.html">Profile</a>
+            </div>
+        </div>
+        
+
+    </div>
+
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-section">
+                <h1>A More Accessible<br>Campus for Everyone</h1>
+                <br>
+                <p>Find accessible facilities, report issues, and help us<br> build a more inclusive campus.</p>
+                <br>
+                <form class="search">
+                    <input id="herosearch" type="search" placeholder="Search facilities (e.g. lift, gym, mess)">
+                    <button class="button-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </section>
+        <section class="home-section" id="home">
+        <div class="fac">
+            <div class="box1 box border">
+                <div class="box-content">
+                    <i class="fa-solid fa-universal-access"></i>
+                    <h2>Accessible Ramps</h2>
+                    <h2>12</h2>
+                    <p>Across Campus</p>
+                </div>
+            </div>
+            <div class="box2 box border">
+                <div class="box-content">
+                    <i class="fa-solid fa-elevator"></i>
+                    <h2>Accessible Lifts</h2>
+                    <h2>42</h2>
+                    <p>Across Campus</p>
+                </div>
+            </div>
+            <div class="box3 box border">
+                <div class="box-content">
+                    <i class="fa-solid fa-toilet-portable"></i>
+                    <h2>Accesssible Washrooms</h2>
+                    <h2>55</h2>
+                    <p>Across Campus</p>
+                </div>
+            </div>
+            <a href="#issues">
+            <div class="box4 box border">
+                <div class="box-content">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <h2>Reported issues</h2>
+                    <h2>4</h2>
+                    <p>Under review</p>
+                </div>
+            </div>
+            </a>
+            
+        </div>
+        </section>
+        
+        <section class="c-sec">
+            <div class="category-head">
+                <h2>Explore by Category</h2>
+                <a href="#report" class="report-btn">
+                    Report an Issue
+                </a>
+            </div>
+            <div class="category-grid">
+                <div class="category-card border">
+                   <span><i class="fa-solid fa-universal-access"></i></span>
+                   <h3>Ramps</h3>
+                </div>
+                <div class="category-card border">
+                    <span><i class="fa-solid fa-elevator"></i></span>
+                    <h3>Lifts</h3>
+                </div>
+                <div class="category-card border">
+                    <span><i class="fa-solid fa-toilet-portable"></i></span>
+                    <h3>Washrooms</h3>
+                </div>
+                <div class="category-card border">
+                    <span><i class="fa-solid fa-square-parking"></i></span>
+                    <h3>Parking</h3>
+                </div>
+                <div class="category-card border">
+                    <span><i class="fa-solid fa-book-open"></i></span>
+                    <h3>Classrooms</h3>
+                </div>
+                <div class="category-card border">
+                    <span><i class="fa-solid fa-list-ul"></i></span>
+                    <h3>Other</h3>
+                </div>
+
+            
+            </div>
+        </section>
+        <section class="facilities-section" id="facilities">
+
+    <h2>Campus Facilities</h2>
+    <p>Explore accessible facilities across campus.</p>
+
+
+    <div class="facility-list">
+        <a href="ramp.html" class="facility-link">
+        <div class="facility-card">
+            <img src="ramp.webp" alt="ramp"></img>
+            <h3>Accessible Ramp</h3>
+            <p>Location: Block A</p>
+            <span class="status">Available</span>
+        </div>
+        </a>
+
+        <a href="lift.html" class="facility-link">
+        <div class="facility-card">
+            <img src="lift.jpg" alt="lifts"></img>
+            <h3>Accessible Lift</h3>
+            <p>Location: All Blocks</p>
+            <span class="status">Available</span>
+        </div>
+        </a>
+
+        <a href="washroom.html" class="facility-link">
+        <div class="facility-card">
+            <img src="wash.jpg" alt="Washroom"></img>
+            <h3>Accessible Washroom</h3>
+            <p>Location: All Blocks</p>
+            <span class="status">Available</span>
+        </div>
+        </a>
+
+        <a href="parking.html" class="facility-link">
+        <div class="facility-card">
+            <img src="parking.jpg" alt="Parking"></img>
+            <h3>Accessible Parking</h3>
+            <p>Location: Main Gate</p>
+            <span class="status">Available</span>
+        </div>
+        </a>
+
+        <a href="class.html" class="facility-link"> 
+        <div class="facility-card">
+            <img src="class.jpg" alt="Classrooms"></img>
+            <h3>Accessible Classroom</h3>
+            <p>Location: All Blocks</p>
+            <span class="status">Available</span>
+        </div>
+        </a>
+        
+        <a href="gym.html" class="facility-link">
+        <div class="facility-card">
+            <img src="f4.jpg" alt="Gym"></img>
+            <h3>Accessible Gym</h3>
+            <p>Location: Block 45</p>
+            <span class="status">Available</span>
+        </div>
+        </a>
+
+        <a href="mall.html" class="facility-link">
+        <div class="facility-card">
+            <img src="f2.jpg" alt="Mall"></img>
+            <h3>Shopping Mall</h3>
+            <p>Location: Block 24</p>
+            <span class="status">Available</span>
+        </div>
+        </a>
+
+        <a href="pool.html" class="facility-link">
+        <div class="facility-card">
+            <img src="f3.jpg" alt="Pool"></img>
+            <h3>swimming Pool</h3>
+            <p>Location: Block 45</p>
+            <span class="status">Available</span>
+        </div>
+        </a>
+        <a href="mess.html" class="facility-link">
+         <div class="facility-card">
+            <img src="mess.jpg" alt="Mess"></img>
+            <h3>Central Mess</h3>
+            <p>Location: Block 55</p>
+            <span class="status">Available</span>
+        </div>
+        </a>
+        <a href="room.html" class="facility-link">
+         <div class="facility-card">
+            <img src="room.jpg" alt="Room"></img>
+            <h3>Hostel Room</h3>
+            <p>Location: Block C</p>
+            <span class="status">Available</span>
+        </div>
+        </a>
+        <a href="hos.html" class="facility-link">
+         <div class="facility-card">
+            <img src="hos.jpg" alt="Hospital"></img>
+            <h3>Hospital</h3>
+            <p>Location: Block 55</p>
+            <span class="status">Available</span>
+        </div>
+        </a>
+        <a href="lib.html" class="facility-link">
+         <div class="facility-card">
+            <img src="library.jpg" alt="Mess"></img>
+            <h3>Library</h3>
+            <p>Location: Block 55</p>
+            <span class="status">Available</span>
+        </div>
+        </a>
+
+    </div>
+
+</section>
+<section class="report-section" id="report">
+    <div class="report-head">
+        <h2>My Report an accessibility Issue</h2>
+        <p>Help us identify and fix accessibility issues on campus.</p>
+    </div>
+
+    <div class="report-container">
+        <form class="report-form" id="issueForm">
+            <label for="studentName">Student Name*</label>
+            <input type="text" id="studentName" placeholder="Enter your name" required>
+            <label for="Location">Location*</label>
+            <select id="Location" required>
+                <option value="">Select location</option>
+                <option>Block A</option>
+                <option>Block A</option>
+                <option>Block A</option>
+                <option>Block A</option>
+                <option>Block A</option>
+                <option>Block A</option>
+            </select>
+            <label for="issueType">Issue Type*</label>
+            <select id="issueType" required>
+                <option value="">Select issue type</option>
+                <option>Lift not working</option>
+                <option>Broken Ramp</option>
+                <option>Washroom</option>
+                <option>Parking issue</option>
+            </select>
+
+            <label for="description">Description*</label>
+            <textarea id="description" placeholder="Describe the issue in detail..." rows="5" required></textarea>
+            <label>Priority*</label>
+            <div class="priority-ops">
+                <label>
+                    <input type="radio" name="priority-ops" value="Low" required>Low
+                </label>
+                <label>
+                    <input type="radio" name="priority-ops" value="Medium" required>Medium
+                </label>
+                <label>
+                    <input type="radio" name="priority-ops" value="High" required>High
+                </label>
+            </div>
+            <button type="submit" class="submit-report">
+                <i class="fa-solid fa-paper-plane"></i>
+                Submit Report
+            </button>
+            <p id="formMessage"></p>
+        </form>
+        <div class="report-sidebar">
+            <div class="feedback">
+                <i class="fa-regular fa-face-smile"></i>
+                <h3>Your feedback matters!</h3>
+                <p>Together we can make our campus more accessible for everyone.</p>
+            </div>
+            <div class="issue-types">
+                <h3>Common Issue Types</h3>
+                <ul>
+                    <li>Lift not working</li>
+                    <li>Broken ramps</li>
+                    <li>Parking issue</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+    
+<section class="my-issues-section" id="issues">
+
+    <div class="my-issues-heading">
+        <h2>My Reported Issues</h2>
+        <p>Track the status of your accessibility issue reports.</p>
+    </div>
+
+    <div class="issues-list">
+        <div class="issue-card">
+            <div class="issue-icon blue">
+                <i class="fa-solid fa-elevator"></i>
+            </div>
+
+            <div class="issue-info">
+                <h3>Lift not working</h3>
+                <p>📍 Block B - Academic Block</p>
+                <small>Reported on: 16 Oct 2026</small>
+            </div>
+
+            <span class="issue-status pending">Pending</span>
+
+            <button class="view-btn" onclick="showIssueDetails(0)">
+                View Details
+            </button>
+        </div>
+        <div class="issue-card">
+            <div class="issue-icon green">
+                <i class="fa-solid fa-person-walking"></i>
+            </div>
+
+            <div class="issue-info">
+                <h3>Broken ramp</h3>
+                <p>📍 Block A - Library</p>
+                <small>Reported on: 14 Oct 2026</small>
+            </div>
+
+            <span class="issue-status progress">In Progress</span>
+
+            <button class="view-btn" onclick="showIssueDetails(1)">
+                View Details
+            </button>
+        </div>
+        <div class="issue-card">
+            <div class="issue-icon purple">
+                <i class="fa-solid fa-restroom"></i>
+            </div>
+
+            <div class="issue-info">
+                <h3>Washroom access</h3>
+                <p>📍 Block C - Academic Block</p>
+                <small>Reported on: 12 Oct 2026</small>
+            </div>
+
+            <span class="issue-status resolved">Resolved</span>
+
+            <button class="view-btn" onclick="showIssueDetails(2)">
+                View Details
+            </button>
+        </div>
+
+        <div class="issue-card">
+            <div class="issue-icon blue">
+                <i class="fa-solid fa-square-parking"></i>
+            </div>
+
+            <div class="issue-info">
+                <h3>Parking issue</h3>
+                <p>📍 Block A - Parking Area</p>
+                <small>Reported on: 10 Oct 2026</small>
+            </div>
+
+            <span class="issue-status resolved">Resolved</span>
+
+            <button class="view-btn" onclick="showIssueDetails(3)">
+                View Details
+            </button>
+        </div>
+
+    </div>
+</section>
+<div class="issue-modal" id="issueModal">
+
+    <div class="modal-content">
+
+        <div class="modal-heading">
+            <h3>Issue Details</h3>
+            <button class="close-modal" onclick="closeIssueDetails()">×</button>
+        </div>
+
+        <div id="modalDetails"></div>
+
+        <button class="modal-close-btn" onclick="closeIssueDetails()">
+            Close
+        </button>
+
+    </div>
+</div>
+</main>
+<script src="CA1.js"></script>
+</body>
+</html>
